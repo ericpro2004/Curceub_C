@@ -12,5 +12,5 @@ void main()
     scanf("%f", &real);
     float dollar = real/5;
     float euro = real/5.2;
-    printf("Você tem %.2f dolares ou %.2f euros \n\n", dollar, euro);
+    printf("Você tem %.2fR$ dolares ou %.2fR$ euros. \n\n", dollar, euro);
 }
