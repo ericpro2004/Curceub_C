@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+void main() {
+    setlocale(LC_ALL, "Portuguese");
+    float num, soma;
+    for(int i = 0; i <= 10; i++) {
+        printf("\nDigite um número:\n");
+        scanf("%f", &num);
+        soma += num;
+        printf("Média atual é %.2f", soma / 10);
+    }
+}
